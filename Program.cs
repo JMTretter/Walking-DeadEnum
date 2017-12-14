@@ -299,28 +299,7 @@ namespace Enums
 
             
 
-            {
-                ClassCalculator.Calculator calculator = new ClassCalculator.Calculator();
-                Console.WriteLine("Please enter a number: ");
-                double number1 = Convert.ToDouble(Console.ReadLine());
-               
-                Console.WriteLine("Please enter a second number: ");
-                double number2 = Convert.ToDouble(Console.ReadLine());
-
-                Console.WriteLine("The computer will now add, multiply, divide, subtract and find the square of your two numbers.");
-                 Console.WriteLine("Press enter to continue.");
-                Console.ReadLine();
-                
-                  
-                Console.WriteLine("Squared " + calculator.Square(number1));
-                Console.WriteLine("Squared " + calculator.Square(number2));
-                Console.WriteLine("Addition " + calculator.Add(number1, number2));
-                Console.WriteLine("Multiplication " + calculator.Multiply(number1, number2));
-                Console.WriteLine("Subtraction " + calculator.Subtract(number1, number2));
-                Console.WriteLine("Division " + calculator.Divide(number1, number2));
-
-                Console.ReadLine();
-            }
+           
         }
     } 
 
